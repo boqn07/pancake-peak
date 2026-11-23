@@ -1,0 +1,6 @@
+std = "roblox"
+
+[lints]
+# Services use `self` methods declared with ':' that don't always use self.
+unused_variable = "warn"
+shadowing = "allow"
